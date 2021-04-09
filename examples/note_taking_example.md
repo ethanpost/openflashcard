@@ -1,7 +1,10 @@
 
+
 ```
-Single '# ' denotes a major subject/content category.
-Double '## ' denotes a main subject/content category.
+1x '# ' denotes a major subject/content category.
+2x '## ' denotes a main subject/content category.
+3x '### ' denotes a minor subject/content category.
+4x '#### ' denites a specific subject/content category.
 If you don't know what to put leave blank or put '?'.
 Questions start with 'q: '.
 The correct answer should be next and start with '* a: '.
