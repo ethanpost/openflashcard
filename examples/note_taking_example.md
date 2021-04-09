@@ -1,26 +1,23 @@
 
--- This is a comment. The parser will ignore any line that begins with '--'.
+```
+Single '# ' denotes a major subject/content category.
+Double '## ' denotes a main subject/content category.
+If you don't know what to put leave blank or put '?'.
+Questions start with 'q: '.
+The correct answer should be next and start with '* a: '.
+Incorrect options follow and begin with '* o:'.
+End each question section with a blank line before begginging a new question.
+```
 
--- # Major subject/content category.
--- Note that this file is a 'notebook' and contains more than one major subject.
--- The intent here is to eventually merge the content into other repositories 
 # EMT
 
--- ## Main top within major subject/content category.
--- If we don't know it we can leave it blank or put '?'.
-
 ## ?
--- A new question is always started with 'q:'.
 q: Correct BVM flow rate (LPM)?
--- The correct answer should always start with '* a:'.
 * a: 15+
--- Other options (multiple choice) are optional. They start with '* o:'.  
 * o:
-  -- Each wrong answer in the multiple choice should start with '- ' and be indented two spaces.
   - 5
   - 2
   - 10
--- Ideally each question ends with a blank line before starting the next question.  
 
 q: How much O2 does a nasal cannula deliver?
   * a: 24%-44%
